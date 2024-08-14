@@ -1,5 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import '../styles/Pages/HomePage.jsx';
-import Banner from '../components/Header.jsx'
+import photo from '../assets/photo/PP.webp'; // Importation de l'image
 
+export default function HomePage() {
+    return (
+        <section className='title_container'>
+            <img src={photo} alt="Photo de Dymitri Thomas" />
+            <div className='title_home'>
+                <h1>Je suis Dymitri Thomas,</h1>
+                <h2>Intégrateur Web.</h2>
+            </div>
+        </section>
+
+    );
+}
