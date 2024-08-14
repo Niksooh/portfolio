@@ -1,0 +1,33 @@
+.image_header {
+    width: 10%;
+    position: absolute;
+    top: 5px;
+    display: flex;
+    left: 15px
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 30px auto;
+    max-width: 1800px;
+    gap: 50px;
+}
+
+.btnNav {
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+a {
+    color: rgb(28, 52, 100);
+    text-decoration: none;
+    position: relative;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+

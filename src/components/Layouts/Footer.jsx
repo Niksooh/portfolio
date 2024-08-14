@@ -14,15 +14,15 @@ export default function Footer() {
             <div className='social-links'>
                 <ButtonMailto
                     mailto="mailto:no-reply@example.com"
-                    label={<FontAwesomeIcon icon={faEnvelope} style={{ width: '24px', height: '24px', color: '#0077b5' }} />}
+                    label={<FontAwesomeIcon icon={faEnvelope} style={{ width: '30px', height: '30px', color: ' #1C3464' }} />}
                 />
                 <ButtonLinkedIn
                     linkedin="https://www.linkedin.com/in/dymitri-thomas-a16765296/"
-                    label={<FontAwesomeIcon icon={faLinkedin} style={{ width: '24px', height: '24px', color: '#0077b5' }} />}
+                    label={<FontAwesomeIcon icon={faLinkedin} style={{ width: '30px', height: '30px', color: ' #1C3464' }} />}
                 />
                 <ButtonGithub
                     github="https://github.com/Niksooh?tab=repositories"
-                    label={<FontAwesomeIcon icon={faGithub} style={{ width: '24px', height: '24px', color: '#0077b5' }} />}
+                    label={<FontAwesomeIcon icon={faGithub} style={{ width: '30px', height: '30px', color: '#1C3464' }} />}
                 />
             </div>
         </footer>

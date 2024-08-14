@@ -5,7 +5,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Header from './components/Layouts/Header'
 import Project from './pages/Project'
-import About from './pages/About'
+import Skills from './pages/Skills'
 import HomePage from './pages/HomePage'
 import Footer from './components/Layouts/Footer'
 
@@ -16,7 +16,7 @@ root.render(
   <Header />
   <Routes>
     <Route path="/" element={<HomePage />} />
-    <Route path="/about" element={<About />} />
+    <Route path="/skill" element={<Skills />} />
     <Route path="/project" element={<Project/>} />
   </Routes>
   <Footer />
