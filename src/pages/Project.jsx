@@ -13,7 +13,7 @@ const projects = [
     cover: imgBooki,
     description: "Création de la page d'accueil d'une agence de voyage",
     tool: "Outil : HTML5 et CSS3",
-    link: ""
+    link: "https://niksooh.github.io/booki/"
   },
   {
     id: "ohmyfood",
