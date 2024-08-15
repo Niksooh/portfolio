@@ -1,0 +1,49 @@
+[
+    {
+        "id" : "booki",
+        "title" : "Booki - Agence de voyage",
+        "cover" : "C:/Users/dymit/OneDriv/Bureau/Openclassroom/Formation/P12/portfolio/src/assets/photo/booki.webp",
+        "description" : "Création de la page d'accueil d'une agence de voyage",
+        "tool" : "HTML5 et CSS3"
+    },
+
+    {
+        "id" : "ohmyfood",
+        "title" : "OhMyFooD - Application de commande de nourriture",
+        "cover" : "C:/Users/dymit/OneDriv/Bureau/Openclassroom/Formation/P12/portfolio/src/assets/photo/ohmyfood.webp",
+        "description" : "Améliorez l'interface d'un site mobile avec des animations CSS",
+        "tool" : "HTML5 et SASS"
+    },
+
+    {
+        "id" : "sophie_bluel",
+        "title" : "Sophie Bluel - Photographe",
+        "cover" : "C:/Users/dymit/OneDriv/Bureau/Openclassroom/Formation/P12/portfolio/src/assets/photo/sophie_bluel.webp",
+        "description" : "Création d'une page web dynamique",
+        "tool" : "HTML5, CSS3 et JavaScript"
+    },
+
+    {
+        "id" : "kasa",
+        "title" : "Kasa - Agence immobillière",
+        "cover" : "C:/Users/dymit/OneDriv/Bureau/Openclassroom/Formation/P12/portfolio/src/assets/photo/kasa.webp",
+        "description" : "Création d'une application web de location immobilière",
+        "tool" : "HTML5, CSS3, JavaScript et React"
+    },
+
+    {
+        "id" : "nina_carducci",
+        "title" : "Nina Carducci - Photographe",
+        "cover" : "C:/Users/dymit/OneDriv/Bureau/Openclassroom/Formation/P12/portfolio/src/assets/photo/nina_carducci.webp",
+        "description" : "Optimisation du référencement d'un site de photographe",
+        "tool" : "HTML5, CSS3, Lighthouse, Google Rich Snippet, Wave et Schema.org"
+    },
+
+    {
+        "id" : "724events",
+        "title" : "724Events - Agence spécialisée dans l'orgainisation d'évènement",
+        "cover" : "C:/Users/dymit/OneDriv/Bureau/Openclassroom/Formation/P12/portfolio/src/assets/photo/724events.webp",
+        "description" : "Débuggez le site d'une agence d'événementiel",
+        "tool" : "HTML5, CSS3, JavaScript, React et Chrome DevTools"
+    }
+]
