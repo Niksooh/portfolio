@@ -1,9 +1,9 @@
 h1 {
     text-align: center;
-    margin-top: 250px;
-    margin-bottom: 100px;
+    margin-top: 200px;
+    margin-bottom: 50px;
     font-size: 50px;
-    color: #333;
+    color: rgb(28, 52, 100);
 }
 
 .cardsContainer {
@@ -11,7 +11,7 @@ h1 {
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
     padding: 60px;
-    margin-top: 50px;
+    margin-bottom: 80px;
 }
 
 .cards {
@@ -26,7 +26,6 @@ h1 {
     justify-content: space-between;
     margin: 0 auto;
 }
-
 
 .cards:hover {
     transform: scale(1.08);
