@@ -25,9 +25,38 @@ a {
     color: rgb(28, 52, 100);
     text-decoration: none;
     position: relative;
+    letter-spacing: 0;
 }
 
-a:hover {
-    text-decoration: underline;
+
+a:hover,
+a:active {
+  letter-spacing: 5px;
 }
 
+a:after,
+a:before {
+  backface-visibility: hidden;
+  border: 1px solid rgb(251, 252, 255);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+a:hover:after,
+a:hover:before {
+  backface-visibility: hidden;
+  border-color: rgb(28, 52, 100);
+  transition: width 350ms ease-in-out;
+  width: 70%;
+}
+
+a:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%;
+}
