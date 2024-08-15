@@ -21,7 +21,7 @@ const projects = [
     cover: imgOhmyfood,
     description: "Améliorez l'interface d'un site mobile avec des animations CSS",
     tool: "Outil : HTML5 et SASS",
-    link: ""
+    link: "https://niksooh.github.io/Ohmyfood-P4/"
   },
   {
     id: "sophie_bluel",
@@ -29,7 +29,7 @@ const projects = [
     cover: imgSophieBluel,
     description: "Création d'une page web dynamique",
     tool: "Outil : HTML5, CSS3 et JavaScript",
-    link: ""
+    link: "https://github.com/Niksooh/P6_sophie_bluel.git"
   },
   {
     id: "kasa",
@@ -37,7 +37,7 @@ const projects = [
     cover: imgKasa,
     description: "Création d'une application web de location immobilière",
     tool: "Outil : HTML5, CSS3, JavaScript et React",
-    link: ""
+    link: "https://github.com/Niksooh/kasa-P8.git"
   },
   {
     id: "nina_carducci",
@@ -45,7 +45,7 @@ const projects = [
     cover: imgNinaCarducci,
     description: "Optimisation du référencement d'un site de photographe",
     tool: "Outil : HTML5, CSS3, Lighthouse, Google Rich Snippet et Wave",
-    link: ""
+    link: "https://github.com/Niksooh/p9-ninacarducci.git"
   },
   {
     id: "724events",
@@ -53,7 +53,7 @@ const projects = [
     cover: img724Event,
     description: "Débuggez le site d'une agence d'événementiel",
     tool: "Outil : HTML5, CSS3, JavaScript, React et Chrome DevTools",
-    link: ""
+    link: "https://github.com/Niksooh/p10_724events.git"
   }
 ];
 
