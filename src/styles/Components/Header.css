@@ -1,44 +1,52 @@
+/* Styles pour l'image dans le header */
 .image_header {
-    width: 10%;
-    position: absolute;
-    top: 5px;
-    display: flex;
-    left: 15px
+  width: 10%;
+  position: absolute;
+  top: 5px;
+  display: flex;
+  left: 15px;
 }
 
+/* Styles pour la navigation */
 nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin: 30px auto;
-    max-width: 1800px;
-    gap: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 30px auto;
+  max-width: 1800px;
+  gap: 50px;
 }
 
 .btnNav {
-    font-size: 24px;
-    font-weight: 500;
-
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: 60px;
 }
 
+/* Styles de base pour les liens */
 a {
-    color: rgb(28, 52, 100);
-    text-decoration: none;
-    position: relative;
-    letter-spacing: 0;
+  color: rgb(28, 52, 100);
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0;
 }
 
+/* Styles pour les liens avec animation */
+.animatedLink {
+  transition: letter-spacing 280ms ease-in-out;
+}
 
-a:hover,
-a:active {
+.animatedLink:hover,
+.animatedLink:active {
   letter-spacing: 5px;
 }
 
-a:after,
-a:before {
+/* Styles pour les effets d'animation */
+.animatedLink:after,
+.animatedLink:before {
   backface-visibility: hidden;
   border: 1px solid rgb(251, 252, 255);
-  bottom: 0px;
+  bottom: 0;
   content: " ";
   display: block;
   margin: 0 auto;
@@ -47,15 +55,15 @@ a:before {
   width: 0;
 }
 
-a:hover:after,
-a:hover:before {
+.animatedLink:hover:after,
+.animatedLink:hover:before {
   backface-visibility: hidden;
   border-color: rgb(28, 52, 100);
   transition: width 350ms ease-in-out;
   width: 70%;
 }
 
-a:hover:before {
+.animatedLink:hover:before {
   bottom: auto;
   top: 0;
   width: 70%;
