@@ -23,8 +23,8 @@ export default function HomePage() {
                     <br />
                     Après cela, j'ai pris la décision de prendre une année sabbatique pour découvrir l'endroit d'où vient ma femme, l'Île de la Réunion.<br />
                     <br />
-                    À notre retour, en plein COVID, je trouve un emploi en grande surface. Malheureusement j'aurais un grave accident de travail,
-                    m'octroyant un status d'handicapé. <br />
+                    À notre retour, en plein COVID, je trouve un emploi en grande surface. Malheureusement j'aurais un accident de travail,
+                    m'octroyant un status de travailleur handicapé. <br />
                     <br />
                     J'ai donc dû me réorienter et quoi de mieux que de tenter de vivre de sa passion. Je me suis donc inscrit à une formation
                     d'intégrateur web au sein du centre de formation à distance d'OpenClassRoom. Quelle joie de partir de zéro et construire un site n'est ce pas ?
