@@ -1,0 +1,73 @@
+.skillsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 100px; /* Ajoute de l'espace sous le conteneur avant le footer */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 100px; /* Réduit l'espace sous le titre */
+    margin-top: 200px;
+}
+
+.H2 {
+    color: #1C3464;
+    font-size: 35px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: rgb(143, 168, 218); /* Couleur de fond de la carte */
+    border-radius: 15px; /* Coins arrondis */
+    box-shadow: 0 14px 8px rgba(0, 0, 0, 0.2); /* Ombre sous la carte */
+    margin: 20px; /* Espacement entre les cartes */
+    padding: 20px;
+    width: 90%; /* Largeur des cartes légèrement réduite */
+    max-width: 800px; /* Largeur maximale des cartes */
+    text-align: center;
+    position: relative;
+}
+
+.card:nth-of-type(odd) {
+    /* Cartes impaires alignées à gauche mais légèrement décalées vers le centre */
+    margin-left: calc(10% + 10px); /* Décalage vers le centre */
+    margin-right: auto;
+}
+
+.card:nth-of-type(even) {
+    /* Cartes paires alignées à droite mais légèrement décalées vers le centre */
+    margin-left: auto;
+    margin-right: calc(10% + 10px); /* Décalage vers le centre */
+}
+
+.icons-container {
+    display: flex;
+    flex-wrap: wrap; /* Permet aux icônes de se répartir sur plusieurs lignes */
+    justify-content: center; /* Centre les icônes dans la carte */
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.icon-item {
+    flex: 1 1 calc(33.333% - 20px); /* Chaque icône occupe un tiers de la largeur disponible, moins l'écart */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icon {
+    font-size: 80px; /* Taille des icônes */
+    color: #1C3464; /* Couleur des icônes */
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+    color: #1C3464;
+}
