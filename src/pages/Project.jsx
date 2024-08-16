@@ -12,7 +12,7 @@ const projects = [
     title: "Booki - Agence de voyage",
     cover: imgBooki,
     description: "Création de la page d'accueil d'une agence de voyage",
-    tool: "Outil : HTML5 et CSS3",
+    tool: "Outils : HTML5 et CSS3",
     link: "https://niksooh.github.io/booki/"
   },
   {
@@ -20,7 +20,7 @@ const projects = [
     title: "OhMyFooD - Application de commande en ligne",
     cover: imgOhmyfood,
     description: "Améliorez l'interface d'un site mobile avec des animations CSS",
-    tool: "Outil : HTML5 et SASS",
+    tool: "Outils : HTML5 et SASS",
     link: "https://niksooh.github.io/Ohmyfood-P4/"
   },
   {
@@ -28,7 +28,7 @@ const projects = [
     title: "Sophie Bluel - Photographe",
     cover: imgSophieBluel,
     description: "Création d'une page web dynamique",
-    tool: "Outil : HTML5, CSS3 et JavaScript",
+    tool: "Outils : HTML5, CSS3 et JavaScript",
     link: "https://github.com/Niksooh/P6_sophie_bluel.git"
   },
   {
@@ -36,7 +36,7 @@ const projects = [
     title: "Kasa - Agence immobillière",
     cover: imgKasa,
     description: "Création d'une application web de location immobilière",
-    tool: "Outil : HTML5, CSS3, JavaScript et React",
+    tool: "Outils : HTML5, CSS3, JavaScript et React",
     link: "https://github.com/Niksooh/kasa-P8.git"
   },
   {
@@ -44,7 +44,7 @@ const projects = [
     title: "Nina Carducci - Photographe",
     cover: imgNinaCarducci,
     description: "Optimisation du référencement d'un site de photographe",
-    tool: "Outil : HTML5, CSS3, Lighthouse, Google Rich Snippet et Wave",
+    tool: "Outils : HTML5, CSS3, Lighthouse, Google Rich Snippet et Wave",
     link: "https://github.com/Niksooh/p9-ninacarducci.git"
   },
   {
@@ -52,7 +52,7 @@ const projects = [
     title: "724Events - Agence d'organisation dévènement",
     cover: img724Event,
     description: "Débuggez le site d'une agence d'événementiel",
-    tool: "Outil : HTML5, CSS3, JavaScript, React et Chrome DevTools",
+    tool: "Outils : HTML5, CSS3, JavaScript, React et Chrome DevTools",
     link: "https://github.com/Niksooh/p10_724events.git"
   }
 ];

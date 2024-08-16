@@ -6,7 +6,9 @@
     position: relative;
 }
 
-.contact, .rs, .github {
+.contact,
+.rs,
+.github {
     position: absolute;
     text-align: center;
 }
@@ -40,6 +42,66 @@
 }
 
 .contactContainer .icon:hover {
-    transform: scale(1.2) ;
-    color: #a21407 !important; 
+    transform: scale(1.2);
+    color: #a21407 !important;
+}
+
+@media (max-width: 768px) {
+    .contactContainer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .contact,
+    .rs,
+    .github {
+        position: relative;
+        margin-bottom: 20px;
+        top: auto;
+        left: auto;
+        transform: none;
+    }
+
+    .contact {
+        margin-top: 20px;
+    }
+
+    .rs {
+        margin-top: 0;
+    }
+
+    .github {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .contactContainer {
+        flex-direction: column;
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    .contact,
+    .rs,
+    .github {
+        position: relative;
+        margin-bottom: 15px;
+        top: auto;
+        left: auto;
+        transform: none;
+        text-align: center;
+    }
+
+    .contact {
+        margin-top: 10px;
+    }
+
+    .rs {
+        margin-top: 0;
+    }
+
+    .github {
+        margin-top: 0;
+    }
 }

@@ -1,3 +1,4 @@
+/* Styles généraux */
 h1 {
     text-align: center;
     margin-top: 200px;
@@ -65,14 +66,56 @@ h1 {
     display: block;
 }
 
+/* Media Query pour Tablette (jusqu'à 900px de largeur) */
 @media (max-width: 900px) {
+    h1 {
+        font-size: 40px;
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+
     .cardsContainer {
         grid-template-columns: repeat(2, 1fr);
+        padding: 30px;
+        margin-bottom: 60px;
+    }
+
+    .cardsImg {
+        height: 300px;
+    }
+
+    .cards h2 {
+        font-size: 18px;
+    }
+
+    .cards p {
+        font-size: 14px;
     }
 }
 
+/* Media Query pour Téléphone (jusqu'à 600px de largeur) */
 @media (max-width: 600px) {
+    h1 {
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
     .cardsContainer {
         grid-template-columns: 1fr;
+        padding: 20px;
+        margin-bottom: 40px;
+    }
+
+    .cardsImg {
+        height: 250px;
+    }
+
+    .cards h2 {
+        font-size: 16px;
+    }
+
+    .cards p {
+        font-size: 12px;
     }
 }

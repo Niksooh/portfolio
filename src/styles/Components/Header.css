@@ -1,4 +1,4 @@
-
+/* Styles généraux */
 .image_header {
   width: 10%;
   position: absolute;
@@ -7,64 +7,108 @@
   left: 15px;
 }
 
-
 nav {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   margin: 30px auto;
   max-width: 1800px;
-  gap: 50px;
+  gap: 20px;
+  flex-wrap: nowrap;
+  position: relative;
 }
 
+/* Style des boutons */
 .btnNav {
   font-size: 30px;
   font-weight: 900;
+  width: auto;
   margin-top: 60px;
+  text-align: center;
 }
 
+/* Les boutons de la deuxième ligne (pour les petits écrans seulement) */
+.btnNav:nth-of-type(4),
+.btnNav:nth-of-type(5) {
+  width: auto;
+  margin-left: 0;
+}
 
+/* Styles pour les liens avec animation */
 a {
-  color: rgb(28, 52, 100);
+  color: rgb(143, 168, 218);
   text-decoration: none;
   position: relative;
   letter-spacing: 0;
 }
 
-
-.animatedLink {
-  transition: letter-spacing 280ms ease-in-out;
+a:hover {
+  color: rgb(28, 52, 100);
+  transition: color 0.3s, transform 0.3s;
+  transform: scale(0.9);
+  font-weight: bold;
 }
 
-.animatedLink:hover,
-.animatedLink:active {
-  letter-spacing: 5px;
+/* Media Query pour Tablette (jusqu'à 768px de largeur) */
+@media (max-width: 768px) {
+  .image_header {
+    width: 15%;
+    left: 10px;
+  }
+
+  .nav-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  nav {
+    flex-direction: row;
+    gap: 10px;
+
+  }
+
+  .btnNav {
+    font-size: 23px;
+    width: calc(100% - 40px);
+    margin-top: 120px;
+    flex-wrap: ;
+  }
+
+  .btnNav:nth-of-type(4),
+  .btnNav:nth-of-type(5) {
+    width: calc(50% - 15px);
+    margin-left: 0;
+  }
 }
 
+/* Media Query pour Téléphone (jusqu'à 480px de largeur) */
+@media (max-width: 480px) {
+  .image_header {
+    width: 25%;
+    left: 5px;
+  }
 
-.animatedLink:after,
-.animatedLink:before {
-  backface-visibility: hidden;
-  border: 1px solid rgb(251, 252, 255);
-  bottom: 0;
-  content: " ";
-  display: block;
-  margin: 0 auto;
-  position: relative;
-  transition: all 280ms ease-in-out;
-  width: 0;
-}
+  .nav-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
 
-.animatedLink:hover:after,
-.animatedLink:hover:before {
-  backface-visibility: hidden;
-  border-color: rgb(28, 52, 100);
-  transition: width 350ms ease-in-out;
-  width: 70%;
-}
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
 
-.animatedLink:hover:before {
-  bottom: auto;
-  top: 0;
-  width: 70%;
+  .btnNav {
+    font-size: 25px;
+    width: calc(50% - 10px);
+    margin-top: 15px;
+  }
+
+  .btnNav:nth-of-type(4),
+  .btnNav:nth-of-type(5) {
+    width: calc(50% - 10px);
+    margin-left: 0;
+  }
 }
