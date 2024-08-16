@@ -35,15 +35,11 @@
     margin-bottom: 20px;
 }
 
-.contactContainer .contact .fa-envelope,
-.contactContainer .rs .fa-linkedin,
-.contactContainer .github .fa-github {
-    transition: transform 0.3s ease, color 0.3s ease;
+.contactContainer .icon {
+    transition: transform 0.6s ease, color 0.3s ease;
 }
 
-.contactContainer .contact .fa-envelope:hover,
-.contactContainer .rs .fa-linkedin:hover,
-.contactContainer .github .fa-github:hover {
-    transform: scale(1.2);
-    color: #ff6f61; /* Vous pouvez changer cette couleur selon votre préférence */
+.contactContainer .icon:hover {
+    transform: scale(1.2) ;
+    color: #a21407 !important; 
 }
