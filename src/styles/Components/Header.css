@@ -1,4 +1,4 @@
-/* Styles pour l'image dans le header */
+
 .image_header {
   width: 10%;
   position: absolute;
@@ -7,7 +7,7 @@
   left: 15px;
 }
 
-/* Styles pour la navigation */
+
 nav {
   display: flex;
   flex-direction: row;
@@ -23,7 +23,7 @@ nav {
   margin-top: 60px;
 }
 
-/* Styles de base pour les liens */
+
 a {
   color: rgb(28, 52, 100);
   text-decoration: none;
@@ -31,7 +31,7 @@ a {
   letter-spacing: 0;
 }
 
-/* Styles pour les liens avec animation */
+
 .animatedLink {
   transition: letter-spacing 280ms ease-in-out;
 }
@@ -41,7 +41,7 @@ a {
   letter-spacing: 5px;
 }
 
-/* Styles pour les effets d'animation */
+
 .animatedLink:after,
 .animatedLink:before {
   backface-visibility: hidden;

@@ -11,7 +11,7 @@ export default function Header() {
         <NavLink className={({ isActive }) => (isActive ? "navLink animatedLink activeLink" : "navLink animatedLink")} to="/">Accueil</NavLink>
         <NavLink className={({ isActive }) => (isActive ? "navLink animatedLink activeLink" : "navLink animatedLink")} to="/skills">Compétences</NavLink>
         <NavLink className={({ isActive }) => (isActive ? "navLink animatedLink activeLink" : "navLink animatedLink")} to="/project">Projets</NavLink>
-        <NavLink className={({ isActive }) => (isActive ? "navLink animatedLink activeLink" : "navLink animatedLink")} to="/a définir">Contact</NavLink> 
+        <NavLink className={({ isActive }) => (isActive ? "navLink animatedLink activeLink" : "navLink animatedLink")} to="/contact">Contact</NavLink>
         <NavLink className={({ isActive }) => (isActive ? "navLink animatedLink activeLink" : "navLink animatedLink")} to="/a définir">CV</NavLink> {/* importer pdf */}
       </nav>
     </header>

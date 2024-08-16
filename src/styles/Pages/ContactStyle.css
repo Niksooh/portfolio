@@ -1,0 +1,49 @@
+.contactContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.contact, .rs, .github {
+    position: absolute;
+    text-align: center;
+}
+
+.contact {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.rs {
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.github {
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+.contactContainer .contact h1,
+.contactContainer .rs h1,
+.contactContainer .github h1 {
+    margin-bottom: 20px;
+}
+
+.contactContainer .contact .fa-envelope,
+.contactContainer .rs .fa-linkedin,
+.contactContainer .github .fa-github {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.contactContainer .contact .fa-envelope:hover,
+.contactContainer .rs .fa-linkedin:hover,
+.contactContainer .github .fa-github:hover {
+    transform: scale(1.2);
+    color: #ff6f61; /* Vous pouvez changer cette couleur selon votre préférence */
+}

@@ -1,28 +1,27 @@
 footer {
     position: absolute;
-  
-    width: 100%; /* Prend toute la largeur disponible */
-    text-align: center; /* Centre le texte et les éléments horizontalement */
-    padding: 10px 0; /* Ajoute du padding en haut et en bas */
-    background-color: #f8f8f8; /* Couleur de fond du footer */
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optionnel: Ajoute une ombre subtile au-dessus du footer */
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f8f8f8;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
 
 footer p {
-    margin: 0; /* Enlève la marge par défaut du paragraphe */
-    font-size: 22px; /* Taille de police du texte de copyright */
-    color: rgb(28, 52, 100); /* Couleur du texte */
+    margin: 0;
+    font-size: 22px;
+    color: rgb(28, 52, 100);
 }
 
 .social-links {
-    margin-top: 10px; /* Espace entre le texte et les icônes sociales */
-    display: flex; /* Utilise flexbox pour les icônes */
-    justify-content: center; /* Centre les icônes horizontalement */
-    gap: 20px; /* Espace entre les icônes */
-    color: rgb(28, 52, 100); /* Couleur du texte */
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: rgb(28, 52, 100);
 }
 
 .social-links a {
-    color: inherit; /* Hérite de la couleur du texte */
-    text-decoration: none; /* Enlève le soulignement des liens */
+    color: inherit;
+    text-decoration: none;
 }
