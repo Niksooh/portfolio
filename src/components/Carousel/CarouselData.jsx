@@ -12,22 +12,16 @@ export default function CarouselData() {
             id: "kasa",
             title: "Kasa - Agence immobilière",
             cover: imgKasa,
-            description: "Création d'une application web de location immobilière",
-            tool: "Outils : HTML5, CSS3, JavaScript et React",
         },
         {
             id: "nina_carducci",
             title: "Nina Carducci - Photographe",
             cover: imgNinaCarducci,
-            description: "Optimisation du référencement d'un site de photographe",
-            tool: "Outils : HTML5, CSS3, Lighthouse, Google Rich Snippet et Wave",
         },
         {
             id: "724events",
-            title: "724Events - Agence d'organisation d'événements",
+            title: "724Events - Organisation d'événements",
             cover: img724Event,
-            description: "Débuggez le site d'une agence d'événementiel",
-            tool: "Outils : HTML5, CSS3, JavaScript, React et Chrome DevTools",
         }
     ];
 

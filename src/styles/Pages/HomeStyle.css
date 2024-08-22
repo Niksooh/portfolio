@@ -6,11 +6,11 @@
     margin-top: 50px;
 }
 
-.H1home{
+.H1home {
     text-decoration: none;
 }
 
-.H2Home{
+.H2Home {
     text-decoration: underline;
 }
 
@@ -28,7 +28,8 @@
     max-width: 1200px;
 }
 
-.titleHome h1, .titleHome p {
+.titleHome h1,
+.titleHome p {
     margin: 0;
     margin-top: 200px;
     color: rgb(28, 52, 100);
@@ -99,6 +100,7 @@
         text-align: center;
     }
 
+
     .titleHome h1 {
         font-size: 2rem;
         margin-top: 20px;
@@ -119,6 +121,7 @@
         font-size: 30px;
         margin-top: 50px;
         left: 0;
+        margin-bottom: 50px;
     }
 
     .aboutSection p {
