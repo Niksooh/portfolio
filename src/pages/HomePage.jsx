@@ -1,6 +1,7 @@
 import React from 'react';
-import photo from '../assets/photo/PP.webp'; // Importation de l'image
+import photo from '../assets/photo/PP.webp';
 import '../styles/Pages/HomeStyle.css';
+import CarouselData from '../components/Carousel/CarouselData'; // Importez CarouselData ici
 
 export default function HomePage() {
     return (
@@ -8,12 +9,12 @@ export default function HomePage() {
             <div className="titleContainer">
                 <img src={photo} alt="Votre description" className="titleImg" />
                 <div className="titleHome">
-                    <h1>Je suis Dymitri Thomas,</h1>
+                    <h1 className='H1home'>Je suis Dymitri THOMAS,</h1>
                     <p>Intégrateur Web.</p>
                 </div>
             </div>
             <article className="aboutSection">
-                <h2>À Propos :</h2>
+                <h2 className='H2Home'>À Propos :</h2>
                 <p>
                     Je me présente je suis Dymitri. Suite à un accident de travail,
                     j'ai découvert le codage d'abord en lua pour des serveurs de jeu vidéo comme GTA V
@@ -28,6 +29,10 @@ export default function HomePage() {
                     Mon objectif ? prendre des idées qui vous passent par la tête et les transformer en un projet performant et dynamique !
                 </p>
             </article>
+            <section>
+                <h1 className='projet'>Mes derniers projets</h1>
+                <CarouselData />
+            </section>
         </>
     );
 }

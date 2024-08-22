@@ -1,113 +1,80 @@
 /* Styles généraux */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 10px 20px;
+}
+
 .image_header {
   width: 10%;
-  position: absolute;
-  top: 5px;
-  display: flex;
-  left: 15px;
+  max-width: 100px;
 }
 
-nav {
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.iconHam {
+  font-size: 25px;
+  margin-right: 15px;
+  color: rgb(143, 168, 218);
+}
+
+/* Styles de la navigation */
+nav.btnNav {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  margin: 30px auto;
-  max-width: 1800px;
   gap: 20px;
-  flex-wrap: nowrap;
-  position: relative;
 }
 
-/* Style des boutons */
-.btnNav {
-  font-size: 30px;
-  font-weight: 900;
-  width: auto;
-  margin-top: 60px;
-  text-align: center;
-}
-
-/* Les boutons de la deuxième ligne (pour les petits écrans seulement) */
-.btnNav:nth-of-type(4),
-.btnNav:nth-of-type(5) {
-  width: auto;
-  margin-left: 0;
-}
-
-/* Styles pour les liens avec animation */
-a {
+/* Style pour les liens */
+.navLink {
   color: rgb(143, 168, 218);
   text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
   position: relative;
-  letter-spacing: 0;
+  padding: 5px 10px;
 }
 
-a:hover {
+.navLink:hover {
   color: rgb(28, 52, 100);
   transition: color 0.3s, transform 0.3s;
   transform: scale(0.9);
-  font-weight: bold;
 }
 
-/* Media Query pour Tablette (jusqu'à 768px de largeur) */
+/* Styles spécifiques pour les petits écrans */
 @media (max-width: 768px) {
   .image_header {
-    width: 15%;
-    left: 10px;
+    width: 60%;
+    max-width: 100px;
   }
 
-  .nav-wrapper {
+  .hamburger {
+    display: block;
+  }
+
+  nav.btnNav {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-top: auto;
+
+  }
+
+  .navLink {
+    font-size: 20px;
+    position: none;
+    padding: 0;
+  }
+
+  /* Afficher la navigation lorsqu'elle est ouverte */
+  nav.btnNav.open {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
-
-  nav {
-    flex-direction: row;
-    gap: 10px;
-
-  }
-
-  .btnNav {
-    font-size: 23px;
-    width: calc(100% - 40px);
-    margin-top: 120px;
-  }
-
-  .btnNav:nth-of-type(4),
-  .btnNav:nth-of-type(5) {
-    width: calc(50% - 15px);
-    margin-left: 0;
-  }
-}
-
-/* Media Query pour Téléphone (jusqu'à 480px de largeur) */
-@media (max-width: 480px) {
-  .image_header {
-    width: 25%;
-    left: 5px;
-  }
-
-  .nav-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
-
-  nav {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .btnNav {
-    font-size: 25px;
-    width: calc(50% - 10px);
-    margin-top: 15px;
-  }
-
-  .btnNav:nth-of-type(4),
-  .btnNav:nth-of-type(5) {
-    width: calc(50% - 10px);
-    margin-left: 0;
   }
 }

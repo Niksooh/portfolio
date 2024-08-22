@@ -10,7 +10,7 @@ import ButtonGithub from '../Buttons/Github';
 export default function Footer() {
     return (
         <footer>
-            <p>© Portfolio - Thomas Dymitri. All rights reserved</p>
+            <p>© Portfolio - THOMAS Dymitri. All rights reserved</p>
             <div className='social-links'>
                 <ButtonMailto
                     mailto="mailto:no-reply@example.com"

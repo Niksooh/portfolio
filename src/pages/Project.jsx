@@ -6,7 +6,7 @@ import imgNinaCarducci from '../assets/photo/nina_carducci.webp';
 import img724Event from '../assets/photo/724events.webp';
 import '../styles/Pages/ProjectStyle.css'
 
-const projects = [
+export const projects = [
   {
     id: "booki",
     title: "Booki - Agence de voyage",
