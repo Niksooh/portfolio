@@ -6,6 +6,7 @@ import imgKasa from '../../assets/photo/kasa.webp';
 import imgNinaCarducci from '../../assets/photo/nina_carducci.webp';
 import img724Event from '../../assets/photo/724events.webp';
 
+
 export default function CarouselData() {
     const cards = [
         {

@@ -25,6 +25,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 10px;
     box-sizing: border-box;
+    height: 600px;
 }
 
 .carousel_card_img {
@@ -104,6 +105,7 @@
 
     .carousel_card {
         padding: 15px;
+        height: 400px;
     }
 
     .carousel_card_img {
@@ -148,6 +150,7 @@
 
     .carousel_card {
         padding: 10px;
+        height: 300px;
     }
 
     .carousel_card_img {
