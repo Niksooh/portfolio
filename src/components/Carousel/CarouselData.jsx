@@ -1,4 +1,3 @@
-// src/components/CarouselData/CarouselData.jsx
 import React from 'react';
 import Carousel from '../Carousel/Carousel';
 import '../../styles/Components/Carousel.css';

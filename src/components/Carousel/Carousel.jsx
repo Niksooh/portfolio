@@ -1,4 +1,3 @@
-// src/components/Carousel/Carousel.jsx
 import { useState, useEffect, useCallback } from 'react';
 import arrowRight from '../../assets/icons/arrow_right.png';
 import arrowLeft from '../../assets/icons/arrow_left.png';
