@@ -2,8 +2,8 @@ import { NavLink } from "react-router-dom";
 import '../../styles/Components/Header.css';
 import logo from '../../assets/logo/logo-transparent-png.webp';
 import { useState } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Importer FontAwesomeIcon
-import { faBars } from '@fortawesome/free-solid-svg-icons'; // Importer l'icône faBars
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'; 
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -12,7 +12,7 @@ export default function Header() {
     <header className="header">
       <img className="image_header" src={logo} alt="Logo de Dymitri Thomas avec la mention intégrateur web" />
       <button className="hamburger" onClick={() => setOpen(!open)}>
-        <FontAwesomeIcon className= 'iconHam' icon={faBars} /> {/* Utiliser FontAwesomeIcon avec faBars */}
+        <FontAwesomeIcon className='iconHam' icon={open ? faTimes : faBars} />
       </button>
       <nav className={`btnNav ${open ? "open" : ""}`}>
         <NavLink
