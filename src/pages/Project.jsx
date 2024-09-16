@@ -12,7 +12,7 @@ export const projects = [
     id: "Argent Bank",
     title: "Argent Bank - Application bancaire",
     cover: imgArgentBank,
-    description: "Implémentez le front-end d'une application bancaire        (Projet Formation)",
+    description: "Implémentez le front-end d'une application bancaire (Projet Formation)",
     tool: "Outils : HTML5, CSS3, JavaScript, React",
     link: "https://github.com/Niksooh/P11_argent_bank.git"
   },
@@ -20,7 +20,7 @@ export const projects = [
     id: "724events",
     title: "724Events - Agence d'organisation dévènement",
     cover: img724Event,
-    description: "Débuggez le site d'une agence d'événementiel                    (Projet Formation)",
+    description: "Débuggez le site d'une agence d'événementiel (Projet Formation)",
     tool: "Outils : HTML5, CSS3, JavaScript, React et Chrome DevTools",
     link: "https://github.com/Niksooh/p10_724events.git"
   },
@@ -28,7 +28,7 @@ export const projects = [
     id: "nina_carducci",
     title: "Nina Carducci - Photographe",
     cover: imgNinaCarducci,
-    description: "Optimisation du référencement d'un site de photographe        (Projet Formation)",
+    description: "Optimisation du référencement d'un site de photographe (Projet Formation)",
     tool: "Outils : HTML5, CSS3, Lighthouse, Google Rich Snippet et Wave",
     link: "https://github.com/Niksooh/p9-ninacarducci.git"
   },
@@ -36,7 +36,7 @@ export const projects = [
     id: "kasa",
     title: "Kasa - Agence immobillière",
     cover: imgKasa,
-    description: "Création d'une application web de location immobilière        (Projet Formation)",
+    description: "Création d'une application web de location immobilière (Projet Formation)",
     tool: "Outils : HTML5, CSS3, JavaScript et React",
     link: "https://github.com/Niksooh/kasa-P8.git"
   },
@@ -44,7 +44,7 @@ export const projects = [
     id: "sophie_bluel",
     title: "Sophie Bluel - Photographe",
     cover: imgSophieBluel,
-    description: "Création d'une page web dynamique                    (Projet Formation)",
+    description: "Création d'une page web dynamique (Projet Formation)",
     tool: "Outils : HTML5, CSS3 et JavaScript",
     link: "https://github.com/Niksooh/P6_sophie_bluel.git"
   },
@@ -60,7 +60,7 @@ export const projects = [
     id: "booki",
     title: "Booki - Agence de voyage",
     cover: imgBooki,
-    description: "Création de la page d'accueil d'une agence de voyage        (Projet Formation)",
+    description: "Création de la page d'accueil d'une agence de voyage (Projet Formation)",
     tool: "Outils : HTML5 et CSS3",
     link: "https://niksooh.github.io/booki/"
   }
