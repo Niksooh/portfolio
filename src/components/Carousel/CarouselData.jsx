@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousel from '../Carousel/Carousel';
 import '../../styles/Components/Carousel.css';
-import imgKasa from '../../assets/photo/kasa.webp';
+import imgArgentBank from '../../assets/photo/argent_bank.webp';
 import imgNinaCarducci from '../../assets/photo/nina_carducci.webp';
 import img724Event from '../../assets/photo/724events.webp';
 
@@ -9,9 +9,9 @@ import img724Event from '../../assets/photo/724events.webp';
 export default function CarouselData() {
     const cards = [
         {
-            id: "kasa",
-            title: "Kasa - Agence immobilière",
-            cover: imgKasa,
+            id: "Argent Bank",
+            title: "Argent Bank - Application bancaire",
+            cover: imgArgentBank,
         },
         {
             id: "nina_carducci",

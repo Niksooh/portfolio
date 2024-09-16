@@ -4,40 +4,25 @@ import imgSophieBluel from '../assets/photo/sophie_bluel.webp';
 import imgKasa from '../assets/photo/kasa.webp';
 import imgNinaCarducci from '../assets/photo/nina_carducci.webp';
 import img724Event from '../assets/photo/724events.webp';
+import imgArgentBank from '../assets/photo/argent_bank.webp'
 import '../styles/Pages/ProjectStyle.css'
 
 export const projects = [
   {
-    id: "booki",
-    title: "Booki - Agence de voyage",
-    cover: imgBooki,
-    description: "Création de la page d'accueil d'une agence de voyage",
-    tool: "Outils : HTML5 et CSS3",
-    link: "https://niksooh.github.io/booki/"
+    id: "Argent Bank",
+    title: "Argent Bank - Application bancaire",
+    cover: imgArgentBank,
+    description: "Implémentez le front-end d'une application bancaire",
+    tool: "Outils : HTML5, CSS3, JavaScript, React",
+    link: "https://github.com/Niksooh/P11_argent_bank.git"
   },
   {
-    id: "ohmyfood",
-    title: "OhMyFooD - Application de commande en ligne",
-    cover: imgOhmyfood,
-    description: "Améliorez l'interface d'un site mobile avec des animations CSS",
-    tool: "Outils : HTML5 et SASS",
-    link: "https://niksooh.github.io/Ohmyfood-P4/"
-  },
-  {
-    id: "sophie_bluel",
-    title: "Sophie Bluel - Photographe",
-    cover: imgSophieBluel,
-    description: "Création d'une page web dynamique",
-    tool: "Outils : HTML5, CSS3 et JavaScript",
-    link: "https://github.com/Niksooh/P6_sophie_bluel.git"
-  },
-  {
-    id: "kasa",
-    title: "Kasa - Agence immobillière",
-    cover: imgKasa,
-    description: "Création d'une application web de location immobilière",
-    tool: "Outils : HTML5, CSS3, JavaScript et React",
-    link: "https://github.com/Niksooh/kasa-P8.git"
+    id: "724events",
+    title: "724Events - Agence d'organisation dévènement",
+    cover: img724Event,
+    description: "Débuggez le site d'une agence d'événementiel",
+    tool: "Outils : HTML5, CSS3, JavaScript, React et Chrome DevTools",
+    link: "https://github.com/Niksooh/p10_724events.git"
   },
   {
     id: "nina_carducci",
@@ -48,12 +33,36 @@ export const projects = [
     link: "https://github.com/Niksooh/p9-ninacarducci.git"
   },
   {
-    id: "724events",
-    title: "724Events - Agence d'organisation dévènement",
-    cover: img724Event,
-    description: "Débuggez le site d'une agence d'événementiel",
-    tool: "Outils : HTML5, CSS3, JavaScript, React et Chrome DevTools",
-    link: "https://github.com/Niksooh/p10_724events.git"
+    id: "kasa",
+    title: "Kasa - Agence immobillière",
+    cover: imgKasa,
+    description: "Création d'une application web de location immobilière",
+    tool: "Outils : HTML5, CSS3, JavaScript et React",
+    link: "https://github.com/Niksooh/kasa-P8.git"
+  },
+  {
+    id: "sophie_bluel",
+    title: "Sophie Bluel - Photographe",
+    cover: imgSophieBluel,
+    description: "Création d'une page web dynamique",
+    tool: "Outils : HTML5, CSS3 et JavaScript",
+    link: "https://github.com/Niksooh/P6_sophie_bluel.git"
+  },
+  {
+    id: "ohmyfood",
+    title: "OhMyFooD - Application de commande en ligne",
+    cover: imgOhmyfood,
+    description: "Améliorez l'interface d'un site mobile avec des animations CSS",
+    tool: "Outils : HTML5 et SASS",
+    link: "https://niksooh.github.io/Ohmyfood-P4/"
+  },
+  {
+    id: "booki",
+    title: "Booki - Agence de voyage",
+    cover: imgBooki,
+    description: "Création de la page d'accueil d'une agence de voyage",
+    tool: "Outils : HTML5 et CSS3",
+    link: "https://niksooh.github.io/booki/"
   }
 ];
 
