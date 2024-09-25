@@ -1,7 +1,7 @@
 import React from 'react';
 import photo from '../assets/photo/PP.webp';
 import '../styles/Pages/HomeStyle.css';
-import CarouselData from '../components/Carousel/CarouselData'; // Importez CarouselData ici
+import CarouselData from '../components/Carousel/CarouselData';
 
 export default function HomePage() {
     return (
